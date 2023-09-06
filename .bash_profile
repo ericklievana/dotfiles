@@ -19,16 +19,13 @@ export HISTFILE="$XDG_DATA_HOME/bash/history"
 # BASH INFINITE HISTORY
 HISTFILE=
 HISTFILESIZE=
+# XINITRC
+export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 
 # DEFAULT APPS
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="chromium"
-
-# ALIAS
-alias config="/usr/bin/git --git-dir=$XDG_CONFIG_HOME/repo --work-tree=$HOME"
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
 
 # SETUP PROMPT
 PS1='[\u@\h \W]\$ '
