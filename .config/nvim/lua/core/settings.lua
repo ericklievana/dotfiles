@@ -1,0 +1,19 @@
+vim.opt.path = ".,**" 
+vim.opt.breakindent = true
+vim.opt.clipboard = "unnamedplus"
+vim.opt.confirm = true
+vim.opt.fileencoding = "utf-8"
+vim.opt.fileformat = "unix"
+vim.opt.linebreak = true
+vim.opt.mouse = ""
+vim.opt.mousehide = true
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.showtabline = 2
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.opt.relativenumber = true
+vim.opt.lazyredraw = true
+vim.opt.termguicolors = true
+
+vim.g.maplocalleader = " "

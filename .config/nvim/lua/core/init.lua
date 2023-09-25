@@ -1,0 +1,5 @@
+require("core.settings")
+require("core.autocommands")
+require("core.lazy")
+require("core.keymaps")
+require("core.startplugins")
