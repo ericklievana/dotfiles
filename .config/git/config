@@ -1,0 +1,8 @@
+[user]
+	name = Erick Lievana Poy
+	email = <ericklievana@gmail.com>
+	signingkey = /home/darkskoll/.ssh/github.pub
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = master
