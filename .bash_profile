@@ -7,7 +7,7 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/.bin"
 
 # CLEAN HOME
 # Readline
@@ -25,7 +25,7 @@ export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 # DEFAULT APPS
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="chromium"
+#export BROWSER="chromium"
 
 # SETUP PROMPT
 PS1='[\u@\h \W]\$ '
