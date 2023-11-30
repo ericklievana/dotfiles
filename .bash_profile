@@ -25,10 +25,14 @@ export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 # DEFAULT APPS
 export EDITOR="nvim"
 export TERMINAL="st"
-#export BROWSER="chromium"
+export BROWSER="chromium"
 
 # SETUP PROMPT
 PS1='[\u@\h \W]\$ '
 
 # SOURCE BASHRC
 [[ -f ~/.bashrc ]] && . ~/.bashrc
+
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" -eq 1 ]; then
+  exec startx
+fi
