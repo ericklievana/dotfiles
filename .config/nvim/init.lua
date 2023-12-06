@@ -1,1 +1,1 @@
-require("darkskoll")
+require("core")
