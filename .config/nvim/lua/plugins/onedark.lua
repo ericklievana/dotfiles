@@ -1,6 +1,4 @@
-return {
-	"navarasu/onedark.nvim",
-	opts = {
-		style = "warmer",
-	},
+return{
+	'olimorris/onedarkpro.nvim',
+	priority = 1000,
 }

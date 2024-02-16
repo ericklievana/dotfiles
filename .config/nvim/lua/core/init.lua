@@ -1,5 +1,5 @@
-require("core.settings")
-require("core.autocommands")
 require("core.lazy")
-require("core.keymaps")
-require("core.startplugins")
+require("core.settings")
+require("core.colorscheme")
+require("core.autocommands")
+

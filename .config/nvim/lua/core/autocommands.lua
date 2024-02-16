@@ -1,2 +1,3 @@
-vim.cmd("filetype plugin on")
-vim.cmd("filetype indent on")
+-- Filetype off
+vim.cmd('filetype plugin off')
+vim.cmd('filetype indent off')
