@@ -13,4 +13,5 @@ fi
 
 pulseaudio --start &
 dunst &
+xwallpaper --maximize "$HOME/images/DarthVaderKill.jpg" &
 exec dwm
