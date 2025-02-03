@@ -1,1 +1,5 @@
-require("core")
+require('core.settings')
+require('core.keymaps')
+require('core.variables')
+require('core.autocommands')
+require('core.lazy')
