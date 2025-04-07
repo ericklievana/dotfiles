@@ -1,0 +1,5 @@
+set font 'monospace normal 16'
+set guioptions ''
+set default-bg '#000000'
+set default-fg '#FFFFFF'
+set recolor 'true'
