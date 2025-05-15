@@ -22,6 +22,12 @@ HISTFILESIZE=
 export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 # CUDA
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
+# PYTHON
+export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
+export PYTHONPYCACHEPREFIX="$XDG_CACHE_HOME/python"
+export PYTHONUSERBASE="$XDG_DATA_HOME/python"
+# WINE
+export WINEPREFIX="$XDG_DATA_HOME/wine/default"
 
 # DEFAULT APPS
 export EDITOR="nvim"
@@ -38,5 +44,5 @@ pulseaudio --check || pulseaudio --start
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" -eq 1 ]; then
-	startx > "$XDG_CACHE_HOME/startx_$(date +%Y%m%d).log" 2>&1
+	exec startx > "$XDG_CACHE_HOME/Xlog/startx_$(date +%Y%m%d).log" 2>&1
 fi
