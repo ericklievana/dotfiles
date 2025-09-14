@@ -15,6 +15,8 @@ return{
                 "gitcommit",
                 "make",
                 "markdown",
+                "go",
+                "python",
             },
             sync_install = false,
             highlight = { enable = true },

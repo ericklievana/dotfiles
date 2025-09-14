@@ -12,7 +12,8 @@ vim.keymap.set('n', '<C-l>', function() vim.cmd.wincmd('l') end)
 
 -- Better buffer management
 vim.keymap.set('n', '<Leader>bd', vim.cmd.bdelete)
-
+vim.keymap.set('n', '<Leader>bn', vim.cmd.bNext)
+vim.keymap.set('n', '<Leader>bp', vim.cmd.bprevious)
 
 -- To open the tree explorer
 vim.keymap.set('n','<Leader>ex', vim.cmd.Explore)

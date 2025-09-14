@@ -33,9 +33,9 @@ vim.opt.list = true
 vim.opt.mouse = ''
 
 -- Tab length
-vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
-vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
+vim.opt.tabstop = 2
 
 -- Round tabs
 vim.opt.shiftround = true
@@ -79,3 +79,6 @@ vim.opt.undofile = true
 
 -- More undo levels
 vim.opt.undolevels = 1000
+
+-- Completition
+vim.opt.completeopt = {'popup','menuone','noinsert'}
