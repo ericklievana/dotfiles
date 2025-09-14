@@ -16,7 +16,6 @@ export INPUTRC="$XDG_CONFIG_HOME/readline/inputrc"
 export W3M_DIR="$XDG_DATA_HOME/w3m"
 # BASH
 export HISTFILE="$XDG_DATA_HOME/bash/history"
-# BASH INFINITE HISTORY
 HISTFILESIZE=
 # XINITRC
 export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
@@ -28,6 +27,16 @@ export PYTHONPYCACHEPREFIX="$XDG_CACHE_HOME/python"
 export PYTHONUSERBASE="$XDG_DATA_HOME/python"
 # WINE
 export WINEPREFIX="$XDG_DATA_HOME/wine/default"
+# TEX
+export TEXMFHOME="$XDG_DATA_HOME/texmf"
+export TEXMFVAR="$XDG_CACHE_HOME/texlive/texmf-var"
+export TEXMFCONFIG="$XDG_CONFIG_HOME/texlive/texmf-config"
+# GO
+export GOPATH="$XDG_DATA_HOME/go"
+export GOMODCACHE="$XDG_CACHE_HOME/go/mod"
+# TERMINFO
+export TERMINFO="$XDG_DATA_HOME/terminfo"
+export TERMINFO_DIRS="$XDG_DATA_HOME/terminfo:/usr/share/terminfo"
 
 # DEFAULT APPS
 export EDITOR="nvim"
