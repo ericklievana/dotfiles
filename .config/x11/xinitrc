@@ -2,6 +2,7 @@
 
 userresources="$XDG_CONFIG_HOME/x11/xresources"
 usermodmap="$XDG_CONFIG_HOME/x11/xmodmap"
+wallpaper="$XDG_HOME/images/deathKorps.png"
 
 if [ -f "$userresources" ]; then
     xrdb -merge "$userresources"
@@ -11,6 +12,6 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-xwallpaper --maximize "$HOME/images/solar.png"
+xwallpaper --maximize "$wallpaper"
 redshift -PO 4500k
 exec dwm
