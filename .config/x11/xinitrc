@@ -2,7 +2,7 @@
 
 userresources="$XDG_CONFIG_HOME/x11/xresources"
 usermodmap="$XDG_CONFIG_HOME/x11/xmodmap"
-wallpaper="$XDG_HOME/images/deathKorps.png"
+wallpaper="$HOME/images/deathKorps.png"
 
 if [ -f "$userresources" ]; then
     xrdb -merge "$userresources"
