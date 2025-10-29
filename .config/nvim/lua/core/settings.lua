@@ -6,7 +6,7 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 
 -- Set colorscheme
-vim.cmd.colorscheme('retrobox')
+vim.cmd.colorscheme('sorbet')
 
 -- Keep indentation
 vim.opt.breakindent = true
@@ -82,3 +82,6 @@ vim.opt.undolevels = 1000
 
 -- Completition
 vim.opt.completeopt = {'popup','menuone','noinsert'}
+
+-- Spellchecking
+vim.opt.spelllang = {'en_us','es'}
