@@ -42,6 +42,7 @@ export TERMINFO_DIRS="$XDG_DATA_HOME/terminfo:/usr/share/terminfo"
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
+export SUDO_EDITOR="nvim"
 
 # SETUP PROMPT
 PS1='[\u@\h \W]\$ '
