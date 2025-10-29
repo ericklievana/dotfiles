@@ -1,5 +1,4 @@
 require('core.settings')
-require('core.lsp')
 require('core.keymaps')
 require('core.variables')
 require('core.autocommands')
