@@ -3,7 +3,7 @@ Xcursor.theme: Future-cyan-cursors
 Xcursor.size: 64
 
 !Colorscheme
-#include "default"
+#include "colorschemes/default"
 
 !Font
 *.font: CodeNewRoman Nerd Font:size=24
