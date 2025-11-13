@@ -4,3 +4,4 @@ application/pdf=org.pwmt.zathura.desktop
 image/png=nsxiv.desktop
 image/jpeg=nsxiv.desktop
 application/epub+zip=org.pwmt.zathura.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
