@@ -1,0 +1,16 @@
+#define normalBlack #161821
+#define normalRed #d75f5f
+#define normalGreen #87d75f
+#define normalYellow #d7af5f
+#define normalBlue #87afd7
+#define normalPurple #af87d7
+#define normalAqua #5fafaf
+#define normalWhite #dadada
+#define brightBlack #707070
+#define brightRed #ff5f5f
+#define brightGreen #87ff5f
+#define brightYellow #ffd75f
+#define brightBlue #87d7ff
+#define brightPurple #d787ff
+#define brightAqua #5fd7d7
+#define brightWhite #ffffff

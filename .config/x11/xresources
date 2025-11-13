@@ -1,3 +1,47 @@
 !Cursor
 Xcursor.theme: Future-cyan-cursors
 Xcursor.size: 64
+
+!Colorscheme
+#include "default"
+
+!Font
+*.font: CodeNewRoman Nerd Font:size=24
+st.font: CodeNewRoman Nerd Font Mono:size=18
+
+! special
+*.foreground:   brightWhite
+*.background:   normalBlack
+*.cursorColor:  brightWhite
+
+*.normbgcolor:  normalBlack
+*.normfgcolor:  normalWhite
+*.normbordercolor: normalBlack
+
+*.selbgcolor:  brightBlue
+*.selfgcolor:  normalBlack
+*.selbordercolor: brightBlue
+
+*.color0:       normalBlack
+*.color8:       brightBlack
+
+*.color1:       normalRed
+*.color9:       brightRed
+
+*.color2:       normalGreen
+*.color10:      brightGreen
+
+*.color3:       normalYellow
+*.color11:      brightYellow
+
+*.color4:       normalBlue
+*.color12:      brightBlue
+
+*.color5:       normalPurple
+*.color13:      brightPurple
+
+*.color6:       normalAqua
+*.color14:      brightAqua
+
+*.color7:       normalWhite
+*.color15:      brightWhite
