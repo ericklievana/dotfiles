@@ -47,9 +47,6 @@ export SUDO_EDITOR="nvim"
 # SETUP PROMPT
 PS1='[\u@\h \W]\$ '
 
-# START PULSEAUDIO
-pulseaudio --check || pulseaudio --start
-
 # SOURCE BASHRC
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
