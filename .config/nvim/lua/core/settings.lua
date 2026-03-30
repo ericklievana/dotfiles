@@ -6,7 +6,7 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 
 -- Set colorscheme
-vim.cmd.colorscheme('sorbet')
+vim.cmd.colorscheme('catppuccin')
 
 -- Keep indentation
 vim.opt.breakindent = true
