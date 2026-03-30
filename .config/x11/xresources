@@ -1,6 +1,6 @@
 !Cursor
-Xcursor.theme: Future-cyan-cursors
-Xcursor.size: 64
+!Xcursor.theme: Future-cyan-cursors
+!Xcursor.size: 32
 
 !Colorscheme
 #include "colorschemes/default"
