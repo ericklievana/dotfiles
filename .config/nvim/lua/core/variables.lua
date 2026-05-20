@@ -23,14 +23,8 @@ vim.g.markdown_folding = 1
 -- Enable highlight in long regions
 vim.g.mardown_minlines = 100
 
--- Enable fended coded block syntax highlight
-vim.g.markdown_fended_languages = ['python', 'bash=sh', 'c']
-
 -- Detect Markdown as Pandoc
 vim.g.markdown_md = 'pandoc'
-
--- Enable fended coded block syntax highlight
-vim.g['pandoc#syntax#codeblocks#embeds#langs'] = ['python', 'bash=sh', 'c']
 
 -- TeX language
 -- Set default to latex
