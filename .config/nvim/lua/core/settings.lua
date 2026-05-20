@@ -6,7 +6,7 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 
 -- Set colorscheme
-vim.cmd.colorscheme('catppuccin')
+vim.cmd.colorscheme('retrobox')
 
 -- Keep indentation
 vim.opt.breakindent = true
@@ -40,9 +40,6 @@ vim.opt.tabstop = 2
 -- Round tabs
 vim.opt.shiftround = true
 
--- Show tabline
---vim.opt.showtabline = 2
-
 -- Show signcolumn
 vim.opt.signcolumn = 'yes'
 
@@ -58,9 +55,6 @@ vim.opt.termguicolors = true
 -- Set status line
 vim.opt.statusline = '%F%m%w%=%l/%L'
 
--- Set autoformat
-vim.opt.formatoptions = 'tcqn1jp'
-
 -- Set fuzzyfind of files
 vim.opt.path:append({'**'})
 
@@ -71,17 +65,7 @@ vim.opt.foldenable = true
 vim.opt.foldlevel = 99
 
 -- Set fold method to use treesitter
-vim.opt.foldmethod = 'expr'
-vim.opt.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
-
--- Enable persistent undo
-vim.opt.undofile = true
-
--- More undo levels
-vim.opt.undolevels = 1000
+vim.opt.foldmethod = 'indent'
 
 -- Completition
 vim.opt.completeopt = {'popup','menuone','noinsert'}
-
--- Spellchecking
-vim.opt.spelllang = {'en_us','es'}
