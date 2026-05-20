@@ -3,7 +3,7 @@
 !Xcursor.size: 32
 
 !Colorscheme
-#include "colorschemes/default"
+#include "colorschemes/retrobox"
 
 !Font
 *.font: CodeNewRoman Nerd Font:size=24
@@ -15,12 +15,12 @@ st.font: CodeNewRoman Nerd Font Mono:size=18
 *.cursorColor:  brightWhite
 
 *.normbgcolor:  normalBlack
-*.normfgcolor:  normalWhite
+*.normfgcolor:  brightWhite
 *.normbordercolor: normalBlack
 
-*.selbgcolor:  brightBlue
+*.selbgcolor:  normalRed
 *.selfgcolor:  normalBlack
-*.selbordercolor: brightBlue
+*.selbordercolor: normalRed
 
 *.color0:       normalBlack
 *.color8:       brightBlack
